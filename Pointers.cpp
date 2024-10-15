@@ -195,7 +195,8 @@ int main() {
 // }
 
     char str[] = "hello";
-    int vowels;
+    int vowels=0;
+    int conso=0;
     for(int i = 0; str[i]; i++)  
     {
         if(str[i]=='a'|| str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u'
@@ -203,8 +204,13 @@ int main() {
         {
 		    vowels++;
         }
+        else
+        {
+            conso++;
+        }
     }
     cout<<vowels;
+    cout<<conso;
     
     
     
