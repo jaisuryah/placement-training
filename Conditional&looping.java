@@ -178,6 +178,142 @@ class HelloWorld {
 //     System.out.println();
 // }
 
+        // int n = 5;
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print(i);
+        //     }
+        //         System.out.println();
+        //     }
+        
+        // int n = 5,c=1;
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print(c+" ");
+        //         c++;
+        //     }
+        //         System.out.println();
+        //     }
+        
+        // int n=5;
+        // int odd = 1; 
+        // int even = 2;
+
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= i; j++) {
+              
+        //         if (i % 2 != 0) {
+        //             System.out.print(odd + " ");
+        //             odd += 2;
+        //         }
+              
+        //         else {
+        //             System.out.print(even + " ");
+        //             even += 2;
+        //         }
+        //     }
+        //     System.out.println(); 
+        // }
+        
+        //Hollow diamond
+//         int n = 5;
+// for (int i = 1; i <= n; i++) {
+//     for (int j = n; j > i; j--) {
+//         System.out.print(" ");
+//     }
+//     for (int k = 1; k <= (2 * i - 1); k++) {
+//         if (k == 1 || k == (2 * i - 1)) {
+//             System.out.print("*");
+//         } else {
+//             System.out.print(" ");
+//         }
+//     }
+//     System.out.println();
+// }
+// for (int i = n - 1; i >= 1; i--) {
+//     for (int j = n; j > i; j--) {
+//         System.out.print(" ");
+//     }
+//     for (int k = 1; k <= (2 * i - 1); k++) {
+//         if (k == 1 || k == (2 * i - 1)) {
+//             System.out.print("*");
+//         } else {
+//             System.out.print(" ");
+//         }
+//     }
+//     System.out.println();
+// }
+
+        
+//HOURGLASS
+//         int n = 5; // Number of rows in each half
+
+// // Upper half of the hourglass
+// for (int i = n; i >= 1; i--) {
+//     for (int j = n; j > i; j--) {
+//         System.out.print(" ");
+//     }
+//     for (int k = 1; k <= (2 * i - 1); k++) {
+//         System.out.print("*");
+//     }
+//     System.out.println();
+// }
+
+// // Lower half of the hourglass
+// for (int i = 2; i <= n; i++) {
+//     for (int j = n; j > i; j--) {
+//         System.out.print(" ");
+//     }
+//     for (int k = 1; k <= (2 * i - 1); k++) {
+//         System.out.print("*");
+//     }
+//     System.out.println();
+// }
+
+// RHOMBUS
+// int n = 5; // Number of rows
+// for (int i = 1; i <= n; i++) {
+//     for (int j = n; j > i; j--) {
+//         System.out.print(" ");
+//     }
+//     for (int k = 1; k <= n; k++) {
+//         System.out.print("* ");
+//     }
+//     System.out.println();
+// }
+
+
+// //BUTTERFLY
+// int n = 5; // Number of rows for each half
+
+// // Upper half of the butterfly
+// for (int i = 1; i <= n; i++) {
+//     for (int j = 1; j <= i; j++) {
+//         System.out.print("*");
+//     }
+//     for (int j = 1; j <= 2 * (n - i); j++) {
+//         System.out.print(" ");
+//     }
+//     for (int j = 1; j <= i; j++) {
+//         System.out.print("*");
+//     }
+//     System.out.println();
+// }
+
+// // Lower half of the butterfly
+// for (int i = n; i >= 1; i--) {
+//     for (int j = 1; j <= i; j++) {
+//         System.out.print("*");
+//     }
+//     for (int j = 1; j <= 2 * (n - i); j++) {
+//         System.out.print(" ");
+//     }
+//     for (int j = 1; j <= i; j++) {
+//         System.out.print("*");
+//     }
+//     System.out.println();
+// }
+
 
         
 
